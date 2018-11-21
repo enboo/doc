@@ -11,29 +11,29 @@
 #####   请求格式：  
 ```json  
 {
-        'sign': '81c4b6e5fd80424289f81a1f3d068e54',
-        'data': [
+        "sign": "81c4b6e5fd80424289f81a1f3d068e54",
+        "data": [
             {
-                'arriveOriginSn': '1302788053',//采购合同编码
-                'username': 'xiaoli',//采购负责人员工账号
-                'arriveNoticeTime': '2018-11-21 09:21:45',//下单日期
-                'supplierId': '562',//供应商ID
-                'supplierName': '深圳市凯雷斯顿科技有限公司',//供应商名称
-                'enterpriseDominant': '1',//采购主体
-                'warehouseCode': '_HUANAN_',//目的仓库编码（编码待统一确定）
-                'estimateArriveDate:'2018-11-25',//预计到达仓库日期（是否放到明细去待确定）
-                'shippingCode': '3382678057526,3382678057526',//快递单号（可能多次发货多个快递单号）
-                'arriveRemark': '',//采购员备忘（可以为空）
-                'purchaseMoney': '1620',//采购总金额（可为空，支持扩展）
-                'transportFee': '10',//运费（可为空，支持扩展）
-                'detail'： [{
-                    'sku': 'XD284002',//SKU编码
-                    'cnName': 'micro转USB2.0转换头 银色',//中文名称
-                	'isPackagingMaterial': '0',//是否是包材
-                    'purchaseSinglePrice': '54',采购单价（可为空，支持扩展）
-                    'purchaseQuantity': '30',//采购数量
-                    'currentCost': '53',//当时成本价
-                	'unit': '个',//单位
+                "arriveOriginSn": "1302788053",//采购合同编码
+                "username": "xiaoli",//采购负责人员工账号
+                "arriveNoticeTime": "2018-11-21 09:21:45",//下单日期
+                "supplierId": "562",//供应商ID
+                "supplierName": "深圳市凯雷斯顿科技有限公司",//供应商名称
+                "enterpriseDominant": "1",//采购主体
+                "warehouseCode": "_HUANAN_",//目的仓库编码（编码待统一确定）
+                "estimateArriveDate:"2018-11-25",//预计到达仓库日期（是否放到明细去待确定）
+                "shippingCode": "3382678057526,3382678057526",//快递单号（可能多次发货多个快递单号）
+                "arriveRemark": "",//采购员备忘（可以为空）
+                "purchaseMoney": "1620",//采购总金额（可为空，支持扩展）
+                "transportFee": "10",//运费（可为空，支持扩展）
+                "detail"： [{
+                    "sku": "XD284002",//SKU编码
+                    "cnName": "micro转USB2.0转换头 银色",//中文名称
+                	"isPackagingMaterial": "0",//是否是包材
+                    "purchaseSinglePrice": "54",采购单价（可为空，支持扩展）
+                    "purchaseQuantity": "30",//采购数量
+                    "currentCost": "53",//当时成本价
+                	"unit": "个",//单位
                 }]
             }
         ]
@@ -46,7 +46,7 @@
     "message": "成功",
     "data": [
         {
-            'apiCode':'createArriveNotice',//接口代码
+            "apiCode":"createArriveNotice",//接口代码
             "arriveNoticeSn": "A20181121015",//WMS系统预到货登记编码
         }
     ]
@@ -64,29 +64,29 @@
 #####   请求格式：  
 ```json  
 {
-        'sign': '81c4b6e5fd80424289f81a1f3d068e54',
-        'data': [
+        "sign": "81c4b6e5fd80424289f81a1f3d068e54",
+        "data": [
             {
-                'arriveOriginSn': '1302788053',//采购合同编码
-                'username': 'xiaoli',//采购负责人员工账号
-                'arriveNoticeTime': '2018-11-21 09:21:45',//下单日期
-                'supplierId': '562',//供应商ID
-                'supplierName': '深圳市凯雷斯顿科技有限公司',//供应商名称
-                'enterpriseDominant': '1',//采购主体
-                'warehouseCode': '_HUANAN_',//目的仓库编码（编码待统一确定）
-                'estimateArriveDate:'2018-11-25',//预计到达仓库日期（是否放到明细去待确定）
-                'shippingCode': '3382678057526,3382678057526',//快递单号（可能多次发货多个快递单号）
-                'arriveRemark': '',//采购员备忘（可以为空）
-                'purchaseMoney': '1620',//采购总金额（可为空，支持扩展）
-                'transportFee': '10',//运费（可为空，支持扩展）
-                'detail'： [{
-                    'sku': 'XD284002',//SKU编码
-                    'cnName': 'micro转USB2.0转换头 银色',//中文名称
-                	'isPackagingMaterial': '0',//是否是包材
-                    'purchaseSinglePrice': '54',采购单价（可为空，支持扩展）
-                    'purchaseQuantity': '30',//采购数量
-                    'currentCost': '53',//当时成本价
-                	'unit': '个',//单位
+                "arriveOriginSn": "1302788053",//采购合同编码
+                "username": "xiaoli",//采购负责人员工账号
+                "arriveNoticeTime": "2018-11-21 09:21:45",//下单日期
+                "supplierId": "562",//供应商ID
+                "supplierName": "深圳市凯雷斯顿科技有限公司",//供应商名称
+                "enterpriseDominant": "1",//采购主体
+                "warehouseCode": "_HUANAN_",//目的仓库编码（编码待统一确定）
+                "estimateArriveDate:"2018-11-25",//预计到达仓库日期（是否放到明细去待确定）
+                "shippingCode": "3382678057526,3382678057526",//快递单号（可能多次发货多个快递单号）
+                "arriveRemark": "",//采购员备忘（可以为空）
+                "purchaseMoney": "1620",//采购总金额（可为空，支持扩展）
+                "transportFee": "10",//运费（可为空，支持扩展）
+                "detail"： [{
+                    "sku": "XD284002",//SKU编码
+                    "cnName": "micro转USB2.0转换头 银色",//中文名称
+                	"isPackagingMaterial": "0",//是否是包材
+                    "purchaseSinglePrice": "54",采购单价（可为空，支持扩展）
+                    "purchaseQuantity": "30",//采购数量
+                    "currentCost": "53",//当时成本价
+                	"unit": "个",//单位
                 }]
             }
         ]
@@ -99,7 +99,7 @@
     "message": "成功",
     "data": [
         {
-            'apiCode':'updateArriveNotice',//接口代码
+            "apiCode":"updateArriveNotice",//接口代码
             "arriveNoticeSn": "A20181121015",//WMS系统预到货登记编码
         }
     ]
@@ -117,17 +117,17 @@
 #####   请求格式：  
 ```json  
 {
-        'sign': '81c4b6e5fd80424289f81a1f3d068e54',
-        'data': [
+        "sign": "81c4b6e5fd80424289f81a1f3d068e54",
+        "data": [
             {
-                'arriveProcessSn': 'P2018112400125',//到货进程编码
-                'arriveOriginSn': '1302788053',//采购合同编码
-                'warehouseCode': '_HUANAN_',//收货仓库编码（编码待统一确定）
-                'receiveTime': '2018-11-24 09:32:26',//收货时间
-                'receiveUsername': 'hangmeimei',//收货人员工账号
+                "arriveProcessSn": "P2018112400125",//到货进程编码
+                "arriveOriginSn": "1302788053",//采购合同编码
+                "warehouseCode": "_HUANAN_",//收货仓库编码（编码待统一确定）
+                "receiveTime": "2018-11-24 09:32:26",//收货时间
+                "receiveUsername": "hangmeimei",//收货人员工账号
                 detail：[{
-                    'sku': 'XD284002',//SKU编码
-                    'receiveQuantity':'30',//收货数量
+                    "sku": "XD284002",//SKU编码
+                    "receiveQuantity":"30",//收货数量
                 }]
             }
         ]
@@ -140,8 +140,8 @@
     "message": "成功",
     "data": [
         {
-            'apiCode':'',//PMS接口代码
-            'arriveProcessSn':'P2018112400125',//到货进程编码
+            "apiCode":"",//PMS接口代码
+            "arriveProcessSn":"P2018112400125",//到货进程编码
         }
     ]
 }
@@ -158,34 +158,34 @@
 #####   请求格式：  
 ```json  
 {
-        'sign': '81c4b6e5fd80424289f81a1f3d068e54',
-        'data': [
+        "sign": "81c4b6e5fd80424289f81a1f3d068e54",
+        "data": [
             {
-                'arriveProcessSn': 'P2018112400125',//到货进程编码
-                'arriveOriginSn': '1302788053',//采购合同编码
-                'contrastUsername': 'lilei',//对图人员工账号
-                'contrastTime': '2018-11-21 10:15:13',//对图时间
-                'inspectUsername': 'liushasha',//质检人员工账号
-                'inspectSku': 'XD284002',//质检SKU编码
-                'supplierQuantity': '30',//供应商发货数量（意向）
-                'actualArriveQuantity': '35',//实际到货数量
-                'stGoodQuantity': '30',//合法范围合格量
-                'stUnqualifiedQuantity': '30',合法范围不合格量
-                'unqualifiedType': '',//不合格类型（跟实物描述不同/外观问题/功能问题/配件问题/尺码不符/款式不符/其他问题），所有的不合格数量的类型，编码待确定
-                'unqualifiedImages': '',//不合格图片串（可以为空，支持扩展）
-                'inspectMemo': '质检备忘',
-                'specialCase': [
+                "arriveProcessSn": "P2018112400125",//到货进程编码
+                "arriveOriginSn": "1302788053",//采购合同编码
+                "contrastUsername": "lilei",//对图人员工账号
+                "contrastTime": "2018-11-21 10:15:13",//对图时间
+                "inspectUsername": "liushasha",//质检人员工账号
+                "inspectSku": "XD284002",//质检SKU编码
+                "supplierQuantity": "30",//供应商发货数量（意向）
+                "actualArriveQuantity": "35",//实际到货数量
+                "stGoodQuantity": "30",//合法范围合格量
+                "stUnqualifiedQuantity": "30",合法范围不合格量
+                "unqualifiedType": "",//不合格类型（跟实物描述不同/外观问题/功能问题/配件问题/尺码不符/款式不符/其他问题），所有的不合格数量的类型，编码待确定
+                "unqualifiedImages": "",//不合格图片串（可以为空，支持扩展）
+                "inspectMemo": "质检备忘",
+                "specialCase": [
                     {
-                        'specialCaseSn': 'SC20181124002',//异常情况编码
-                    	'specialType': '_SPECIAL_QUALIFIED_SURPLUS_',//异常类型（多收合格量、多收不合格量、合法范围质检不良品）
-                    	'specialSku': 'XD284002',//异常SKU
-                    	'specialQuantity': '3',//异常数量（实例为多收合格量）
+                        "specialCaseSn": "SC20181124002",//异常情况编码
+                    	"specialType": "_SPECIAL_QUALIFIED_SURPLUS_",//异常类型（多收合格量、多收不合格量、合法范围质检不良品）
+                    	"specialSku": "XD284002",//异常SKU
+                    	"specialQuantity": "3",//异常数量（实例为多收合格量）
                     },
                     {
-                        'specialCaseSn': 'SC20181124003',//异常情况编码
-                    	'specialType': '_SPECIAL_DEFECTIVE_SURPLUS_',//异常类型（多收合格量、多收不合格量、合法范围质检不良品）
-                    	'specialSku': 'XD284002',//异常SKU
-                    	'specialQuantity': '2',//异常数量（实例为多收不合格量）
+                        "specialCaseSn": "SC20181124003",//异常情况编码
+                    	"specialType": "_SPECIAL_DEFECTIVE_SURPLUS_",//异常类型（多收合格量、多收不合格量、合法范围质检不良品）
+                    	"specialSku": "XD284002",//异常SKU
+                    	"specialQuantity": "2",//异常数量（实例为多收不合格量）
                     },
                 ]
             }
@@ -199,8 +199,8 @@
     "message": "成功",
     "data": [
         {
-            'apiCode':'',//PMS接口代码
-            'arriveProcessSn':'P2018112400125',//到货进程编码
+            "apiCode":"",//PMS接口代码
+            "arriveProcessSn":"P2018112400125",//到货进程编码
         }
     ]
 }
@@ -217,24 +217,24 @@
 #####   请求格式：  
 ```json  
 {
-        'sign': '81c4b6e5fd80424289f81a1f3d068e54',
-        'data': [
+        "sign": "81c4b6e5fd80424289f81a1f3d068e54",
+        "data": [
             {
-                'specialCaseSn': 'SC20181124002',//异常情况编码
-                'warehouseCode': '_HUANAN_',//异常解决仓库编码（编码待统一确定）
-				'specialSku': 'XD284002',//异常SKU
-				'specialQuantity': '3',//异常总数量（实例为多收合格量）
-				'choiceUsername': 'liulibing',//异常决策人员工账号
-				'choiceTime': '2018-11-24 16:20:12',//异常决策时间
-				'choice': [
+                "specialCaseSn": "SC20181124002",//异常情况编码
+                "warehouseCode": "_HUANAN_",//异常解决仓库编码（编码待统一确定）
+				"specialSku": "XD284002",//异常SKU
+				"specialQuantity": "3",//异常总数量（实例为多收合格量）
+				"choiceUsername": "liulibing",//异常决策人员工账号
+				"choiceTime": "2018-11-24 16:20:12",//异常决策时间
+				"choice": [
 				{
-				    'threadQuantity': 1,
-					'threadChoice': '_SPECIAL_QUALIFIED_SURPLUS_GIFT_',//异常处理抉择类型（实例1个为按赠品入库）
+				    "threadQuantity": 1,
+					"threadChoice": "_SPECIAL_QUALIFIED_SURPLUS_GIFT_",//异常处理抉择类型（实例1个为按赠品入库）
 				},
 				{
-				    'threadQuantity': 2,
-					'threadChoice': '_SPECIAL_QUALIFIED_SURPLUS_OTHER_ORDER_',//异常处理抉择类型（实例2个为补发其他采购单）
-					'arriveOriginSn': '1302712053',
+				    "threadQuantity": 2,
+					"threadChoice": "_SPECIAL_QUALIFIED_SURPLUS_OTHER_ORDER_",//异常处理抉择类型（实例2个为补发其他采购单）
+					"arriveOriginSn": "1302712053",
 				}]
             }
         ]
@@ -247,8 +247,8 @@
     "message": "成功",
     "data": [
         {
-            'apiCode':'updateSpeacilCase',//PMS接口代码
-            'specialCaseSn': 'SC20181124002',//异常编码
+            "apiCode":"updateSpeacilCase",//PMS接口代码
+            "specialCaseSn": "SC20181124002",//异常编码
         }
     ]
 }
@@ -265,14 +265,14 @@
 #####   请求格式：  
 ```json  
 {
-        'sign': '81c4b6e5fd80424289f81a1f3d068e54',
-        'data': [
+        "sign": "81c4b6e5fd80424289f81a1f3d068e54",
+        "data": [
             {
-                'specialCaseSn': 'SC20181124002',//异常情况编码
-                'warehouseCode': '_HUANAN_',//异常解决仓库编码（编码待统一确定）
-				'overUsername': 'liulibing',//异常实物处理人员工账号
-				'overTime': '2018-11-24 17:56:32',//异常实物处理时间
-				'overMemo': ''//如果是退回供应商，则可能会带有快递单号反馈给采购员
+                "specialCaseSn": "SC20181124002",//异常情况编码
+                "warehouseCode": "_HUANAN_",//异常解决仓库编码（编码待统一确定）
+				"overUsername": "liulibing",//异常实物处理人员工账号
+				"overTime": "2018-11-24 17:56:32",//异常实物处理时间
+				"overMemo": ""//如果是退回供应商，则可能会带有快递单号反馈给采购员
             }
         ]
     }
@@ -284,8 +284,8 @@
     "message": "成功",
     "data": [
         {
-            'apiCode':'',//PMS接口代码
-            'specialCaseSn':'SC20181124002',//异常编码
+            "apiCode":"",//PMS接口代码
+            "specialCaseSn":"SC20181124002",//异常编码
         }
     ]
 }
@@ -302,15 +302,15 @@
 #####   请求格式：  
 ```json  
 {
-        'sign': '81c4b6e5fd80424289f81a1f3d068e54',
-        'data': [
+        "sign": "81c4b6e5fd80424289f81a1f3d068e54",
+        "data": [
             {
-                'arriveOriginSn': '1302788053',//采购合同编码
-                'shelveUsername': 'liqiang',//上架人员工账号
-                'shelveTime': '2018-11-24 16:30:58',//上架时间
-                'detail': [{
-                    'sku': 'XD284002',//上架SKU（目前是单个SKU，未来可能多个支持扩展）
-                    'shelveQuantity': 30,//上架数量
+                "arriveOriginSn": "1302788053",//采购合同编码
+                "shelveUsername": "liqiang",//上架人员工账号
+                "shelveTime": "2018-11-24 16:30:58",//上架时间
+                "detail": [{
+                    "sku": "XD284002",//上架SKU（目前是单个SKU，未来可能多个支持扩展）
+                    "shelveQuantity": 30,//上架数量
                 }]
             }
         ]
@@ -323,7 +323,7 @@
     "message": "成功",
     "data": [
         {
-            'apiCode':'',//PMS接口代码
+            "apiCode":"",//PMS接口代码
         }
     ]
 }
@@ -340,19 +340,19 @@
 #####   请求格式：  
 ```json  
 {
-        'sign': '81c4b6e5fd80424289f81a1f3d068e54',
-        'data': [
+        "sign": "81c4b6e5fd80424289f81a1f3d068e54",
+        "data": [
             {
-                'sampleSn': 'SA20181121001',//样品申请编码（其他系统生成）
-                'warehouseCode': '_HUANAN_',//申请样品来源仓库编码（编码待统一确定）
-                'sampleUsername': 'lijun',//样品申请人员工账号
-				'sampleTime': '2018-11-24 16:30:58',//样品借出申请时间
-                'enterpriseDominant': '1',//采购主体
-				'hopeArriveDate': '2018-11-26 16:30:58',//希望拿到样品日期
-                'usePeriod': '24',//使用时长(h)
-                'detail': [{
-                    'sku': 'XD284002',//样品SKU
-                    'sampleQuantity': 1,//样品数量
+                "sampleSn": "SA20181121001",//样品申请编码（其他系统生成）
+                "warehouseCode": "_HUANAN_",//申请样品来源仓库编码（编码待统一确定）
+                "sampleUsername": "lijun",//样品申请人员工账号
+				"sampleTime": "2018-11-24 16:30:58",//样品借出申请时间
+                "enterpriseDominant": "1",//采购主体
+				"hopeArriveDate": "2018-11-26 16:30:58",//希望拿到样品日期
+                "usePeriod": "24",//使用时长(h)
+                "detail": [{
+                    "sku": "XD284002",//样品SKU
+                    "sampleQuantity": 1,//样品数量
                 }]
             }
         ]
@@ -365,8 +365,8 @@
     "message": "成功",
     "data": [
         {
-            'apiCode':'createSample',//接口代码
-            'sampleSn': 'SA20181121001',//样品申请编码
+            "apiCode":"createSample",//接口代码
+            "sampleSn": "SA20181121001",//样品申请编码
         }
     ]
 }
@@ -383,19 +383,19 @@
 #####   请求格式：  
 ```json  
 {
-        'sign': '81c4b6e5fd80424289f81a1f3d068e54',
-        'data': [
+        "sign": "81c4b6e5fd80424289f81a1f3d068e54",
+        "data": [
             {
-                'sampleSn': 'SA20181121001',//样品申请编码（其他系统生成）
-                'warehouseCode': '_HUANAN_',//样品借出仓库编码（编码待统一确定）
-                'sendUsername': 'liushasha',//样品借出人员工账号
-				'sendTime': '2018-11-24 16:30:58',//样品借出时间
-                'enterpriseDominant': '1',//采购主体
-				'sendMemo': '圆通快递，单号XXXXX',//邮寄信息
-				'hopeBackDate': '2018-11-29 16:30:58',//期望返仓日期（面临缺货可能）
-                'detail': [{
-                    'sku': 'XD284002',//SKU
-                    'sampleQuantity': 1,//样品数量
+                "sampleSn": "SA20181121001",//样品申请编码（其他系统生成）
+                "warehouseCode": "_HUANAN_",//样品借出仓库编码（编码待统一确定）
+                "sendUsername": "liushasha",//样品借出人员工账号
+				"sendTime": "2018-11-24 16:30:58",//样品借出时间
+                "enterpriseDominant": "1",//采购主体
+				"sendMemo": "圆通快递，单号XXXXX",//邮寄信息
+				"hopeBackDate": "2018-11-29 16:30:58",//期望返仓日期（面临缺货可能）
+                "detail": [{
+                    "sku": "XD284002",//SKU
+                    "sampleQuantity": 1,//样品数量
                 }]
             }
         ]
@@ -408,8 +408,8 @@
     "message": "成功",
     "data": [
         {
-            'apiCode':'',//外部系统接口代码
-            'sampleSn': 'SA20181121001',//样品申请编码
+            "apiCode":"",//外部系统接口代码
+            "sampleSn": "SA20181121001",//样品申请编码
         }
     ]
 }
@@ -426,19 +426,19 @@
 #####   请求格式：  
 ```json  
 {
-        'sign': '81c4b6e5fd80424289f81a1f3d068e54',
-        'data': [
+        "sign": "81c4b6e5fd80424289f81a1f3d068e54",
+        "data": [
             {
-                'sampleSn': 'SA20181121001',//样品申请编码（其他系统生成）
-                'warehouseCode': '_HUANAN_',//样品借出仓库编码（编码待统一确定）
-                'sendUsername': 'liushasha',//样品借出人员工账号
-				'sendTime': '2018-11-24 16:30:58',//样品借出时间
-                'enterpriseDominant': '1',//采购主体
-				'sendMemo': '圆通快递，单号XXXXX',//邮寄信息
-				'hopeBackDate': '2018-11-29 16:30:58',//期望返仓日期（面临缺货可能）
-                'detail': [{
-                    'sku': 'XD284002',//SKU
-                    'sampleQuantity': 1,//样品数量
+                "sampleSn": "SA20181121001",//样品申请编码（其他系统生成）
+                "warehouseCode": "_HUANAN_",//样品借出仓库编码（编码待统一确定）
+                "sendUsername": "liushasha",//样品借出人员工账号
+				"sendTime": "2018-11-24 16:30:58",//样品借出时间
+                "enterpriseDominant": "1",//采购主体
+				"sendMemo": "圆通快递，单号XXXXX",//邮寄信息
+				"hopeBackDate": "2018-11-29 16:30:58",//期望返仓日期（面临缺货可能）
+                "detail": [{
+                    "sku": "XD284002",//SKU
+                    "sampleQuantity": 1,//样品数量
                 }]
             }
         ]
@@ -451,8 +451,8 @@
     "message": "成功",
     "data": [
         {
-            'apiCode':'',//外部系统接口代码
-            'sampleSn': 'SA20181121001',//样品申请编码
+            "apiCode":"",//外部系统接口代码
+            "sampleSn": "SA20181121001",//样品申请编码
         }
     ]
 }

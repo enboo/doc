@@ -14,7 +14,7 @@
         "sign": "81c4b6e5fd80424289f81a1f3d068e54",
         "data": [
             {
-                "arriveOriginSn": "1302788053",//采购合同编码
+                "arriveOriginSn": "1302788053",\/\/采购合同编码
                 "username": "xiaoli",//采购负责人员工账号
                 "arriveNoticeTime": "2018-11-21 09:21:45",//下单日期
                 "supplierId": "562",//供应商ID
